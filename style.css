@@ -1,40 +1,90 @@
 h1 {
-    text-align: center;
-    color: rgb(54, 54, 130);
-  }
-  
+  text-align: center;
+  color: #ffffff;
+  background-color: #003366;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #e6f2ff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.formUser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #004080;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+.formUser select, .formUser input, .formUser button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.formUser button {
+  background-color: #0059b3;
+  color: white;
+  cursor: pointer;
+}
+
+.formUser button:hover {
+  background-color: #0073e6;
+}
+
+.allUsers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+  gap: 10px;
+  width: 250px;
+  text-align: center;
+  background: white;
+}
+
+.user img {
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 600px) {
   .formUser {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+    flex-direction: column;
+    gap: 12px;
   }
   
   .allUsers {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
-  }
-  
-  .user {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 0 5px black;
-    border-radius: 5px;
-    padding: 15px;
-    gap: 10px;
-    width: 200px;
-  }
-  
-  .user img {
-    border-radius: 50%;
-  }
-  
-  .info {
-    display: flex;
     flex-direction: column;
   }
+}
