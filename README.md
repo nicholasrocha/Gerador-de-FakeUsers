@@ -1,7 +1,7 @@
 ## Projeto Gerador de FakeUser
 O projeto consiste em usar uma API pública para geração de usuários fictícios com informações como nome, email, imagem, estado, país, entre outras.
 ## Design do projeto
-![alt text](image.png)
+![alt text](image-1.png)
 ## API ultilizada
 A API ultilizada foi a https://randomuser.me/ que fornece os informações de usuarios através de um JSON conforme abaixo:
 ```
@@ -76,14 +76,14 @@ A API ultilizada foi a https://randomuser.me/ que fornece os informações de us
 - [ x ] Filtro de usuários pelo gênero.
 - [ x ] Filtro de usuários pela nacionalidade.
 - [ x ] Filtro de usuários pela quantidade.
-- [  ] Mostrar mais informações dos usuários
-    [  ] Pais
-    [  ] Estado
-    [  ] Cidade
-    [  ] Telefone
-- [  ] Responsividade da tela.
-- [  ] Aumentar o filtro da quantidade de usuários.
-- [  ] Colocar mais opções de países.
+- [ x ] Mostrar mais informações dos usuários
+    [ x ] Pais
+    [ x ] Estado
+    [ x ] Cidade
+    [ x ] Telefone
+- [ x ] Responsividade da tela.
+- [ x ] Aumentar o filtro da quantidade de usuários.
+- [ x ] Colocar mais opções de países.
 
 ## Contatos
 Email: rochanicholas10@gmail.com
