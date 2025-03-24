@@ -10,9 +10,9 @@
     <h1>Gerador de FakeUsers</h1>
     <div class="formUser">
       <span><b>Gênero:</b></span>
-      <input value = "" type="radio" name="gender" checked /> Aleatório
-      <input value = "male" type="radio" name="gender" /> Homem
-      <input value = "female" type="radio" name="gender" /> Mulher
+      <input value="" type="radio" name="gender" checked /> Aleatório
+      <input value="male" type="radio" name="gender" /> Homem
+      <input value="female" type="radio" name="gender" /> Mulher
 
       <span><b>Nacionalidade:</b></span>
       <select id="natUsers">
@@ -20,41 +20,21 @@
         <option value="mx">México</option>
         <option value="es">Espanha</option>
         <option value="us">Estados Unidos</option>
+        <option value="fr">França</option>
+        <option value="de">Alemanha</option>
+        <option value="ca">Canadá</option>
+        <option value="au">Austrália</option>
       </select>
 
       <span><b>Quantidade:</b></span>
-      <select id="quantUsers">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-      </select>
+      <input id="quantUsers" type="number" min="1" max="100" value="1" />
 
       <button onclick="generateFakerUsers()">Gerar Usuário</button>
     </div>
     <hr />
 
-    <div class="allUsers">
-      <div class="user">
-        <img
-          width="100"
-          src="https://randomuser.me/api/portraits/med/women/42.jpg"
-        />
-        <div class="info">
-          <span><b>Nome:</b> Henrique Neto</span>
-          <span><b>Email:</b> neto@gmail.com</span>
-        </div>
-      </div>
+    <div class="allUsers"></div>
 
-      
-      </div>
-    </div>
     <script src="script.js"></script>
   </body>
 </html>
